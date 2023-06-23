@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>12G</title>
+
+    <style>
+      div {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      .flexbox {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 300px;
+        margin-bottom: 20px;
+      }
+
+      .profile-picture {
+        height: 80px;
+        width: 80px;
+        object-position: center;
+        object-fit: cover;
+        border-radius: 50px;
+      }
+
+      .namebox {
+        margin-left: 20px;
+        margin-right: 100px;
+        flex: 1;
+      }
+
+      .name-text {
+        font-weight: bold;
+        margin-bottom: 2px;
+      }
+
+      .name2-text,.name3-text {
+        margin-bottom: 2px;
+        color: gray;
+      }
+      
+      .follow {
+        color: white;
+        font-weight: bold;
+        background-color: rgb(96, 170, 230);
+        border-style: none;
+        height: 30px;
+        width: 60px;
+        border-radius: 5px;
+      }
+      </style>
+  </head>
+  <body>
+
+    <div class="container">
+
+      <div class="flexbox">
+        <div class="picbox">
+          <img class="profile-picture" src="cat.jpg">
+        </div>
+        <div class="namebox">
+          <p class="name-text">Oliver</p>
+          <p class="name2-text">the cat</p>
+          <p class="name3-text">Popular</p>
+        </div>
+        <div class="followbox">
+          <button class="follow">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div>
+          <img class="profile-picture" src="cat.jpg">
+        </div>
+        <div class="namebox">
+          <p class="name-text">Oliver</p>
+          <p class="name2-text">the cat</p>
+          <p class="name3-text">Popular</p>
+        </div>
+        <div>
+          <button class="follow">Follow</button>
+        </div>
+      </div>
+
+      <div class="flexbox">
+        <div>
+          <img class="profile-picture" src="cat.jpg">
+        </div>
+        <div class="namebox">
+          <p class="name-text">Oliver</p>
+          <p class="name2-text">the cat</p>
+          <p class="name3-text">Popular</p>
+        </div>
+        <div>
+          <button class="follow">Follow</button>
+        </div>
+      </div>
+
+    </div>
+
+  </body>
+</html>

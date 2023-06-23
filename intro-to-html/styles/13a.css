@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.left-section {
+  width: 100px;
+  background-color: lightpink;
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+}
+
+.item1-text {
+  color: white;
+  background-color: black;
+}
+
+.right-section {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+}

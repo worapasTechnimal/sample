@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+}
+
+.left-section {
+  width: 100px;
+  background-color: lightpink;
+  display: flex;
+  height: 50px;
+}
+
+.right-section {
+  width: 200px;
+  height: 50px;
+  background-color: lightblue;
+}
+
+.row2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row2-text {
+  color: white;
+  background-color: black;
+}
